@@ -1,0 +1,211 @@
+body
+{
+margin:0;
+}
+
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+/* header */
+.header{
+  width: 100%;
+  height: 8vh;
+  margin-top: 2vh;
+}
+
+.nav{
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 10vh;
+  text-decoration: none;
+}
+
+.nav__link:hover{
+  text-decoration: underline;
+  color: #000;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+
+/* contacts */
+.contacts{
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.vopros{
+width: 95%;
+height: 13vh;
+margin: 0 auto;
+}
+
+.v{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px  #708090;
+}
+
+
+/* form */
+.form{
+  width: 50%;
+  height: 50vh;
+  float: left;
+  display: flex;
+}
+
+
+
+.table{
+  width: 75%;
+  height: 45vh;
+  margin-left: 12vh;
+  background-color: #DFE8F9;
+
+
+}
+
+.name__v{
+  margin-left: 10vh;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+input[type=text], textarea {
+    width: 80%;
+    margin-top: -2vh;
+    padding: 1.7vh;
+    border: 2vh solid #DFE8F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #000000AD;
+    margin-left: 8vh;
+
+
+}
+
+
+
+
+/* links */
+.links{
+  float: right;
+  width: 50%;
+  height:50vh;
+}
+.links__text{
+  margin-top:6vh;
+  font-size: 24px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+.sites{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+
+}
+.inst{
+  width: 13vh;
+  height: 13vh;
+  opacity: 60%;
+}
+.inst:hover{
+  opacity: 100%;
+}
+
+
+.vk{
+  width: 17vh;
+  height: 15vh;
+  opacity: 60%;
+}
+.vk:hover{
+  opacity: 100%;
+}
+
+
+.telega{
+  width: 13vh;
+  height: 13vh;
+  opacity: 60%;
+}
+.telega:hover{
+  opacity: 100%;
+}
+
+
+
+
+
+
+
+/* geolocation */
+.geolocation{
+  display: flex;
+
+  width: 100%;
+  height: 32vh;
+}
+.geolocation iframe{
+    height:100%;
+    width:100%;
+
+}
+
+
+@media (max-width: 800px){
+
+.v{
+  font-size: 32px;
+}
+
+.links{
+  width: 70%
+}
+.nav{
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
